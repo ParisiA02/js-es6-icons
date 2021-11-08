@@ -155,8 +155,8 @@ document.addEventListener("change", function(){
 	}
 });
 
-function stampaIcone(element){
-	element.forEach(element => {
+function stampaIcone(array){
+	array.forEach(element => {
 		let elemento = `<div class="box">
 							<i class="${element.family} ${element.prefix}${element.name}" style="color:${element.color};"></i>
 							<div class="text">${element.name.toUpperCase()}</div>
